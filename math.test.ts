@@ -51,3 +51,17 @@ describe('divide', () => {
         expect(divide(6,3)).toBe(2)
     })
 })
+
+
+function power(a: number, b: number) {
+    return a ** b
+}
+
+describe('power', () => {
+    it('raises a number to the power of another number', () => {
+        expect(power(2,3)).toBe(8)
+        expect(power(3,2)).toBe(9)
+        expect(power(5,0)).toBe(1)
+        expect(power(0,5)).toBe(0)
+    })
+})
