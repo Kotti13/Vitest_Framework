@@ -26,3 +26,28 @@ describe('minus', () => {
 });
 
 
+
+
+function multiple(a: number, b: number) {
+    return a * b;
+}
+
+describe('multiple', () => {
+    it('multiplies two nummbers', () => {
+        expect(multiple(2,3)).toBe(6)
+    })
+})
+
+
+
+
+function divide(a: number, b: number) {
+    return a/b
+}
+
+
+describe('divide', () => {
+    it('divides two numbers', () => {
+        expect(divide(6,3)).toBe(2)
+    })
+})
